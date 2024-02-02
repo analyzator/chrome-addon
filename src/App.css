@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.addButton {
+  background: none;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: url("../public/icons/add-to-svgrepo-com.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.addButton:hover {
+  background-color: #00800023;
+}
+
+.removeButton {
+  background: none;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: url("../public/icons/garbage-can-svgrepo-com.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.removeButton:hover {
+  background-color: #ff000031;
+}
+
+.tabField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.emptySpace {
+  display: list-item;
+}

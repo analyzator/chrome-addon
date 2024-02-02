@@ -1,0 +1,14 @@
+{
+  "name": "FavTabs Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Manage your favorite tabs easily!",
+  "action": {
+    "default_title": "FavTabs Extension",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo192.png",
+      "128": "logo192.png"
+    }
+  }
+}
